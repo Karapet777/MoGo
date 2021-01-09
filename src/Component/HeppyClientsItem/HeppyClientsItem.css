@@ -1,0 +1,25 @@
+.LineUs{
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #F38181;
+}
+.contHap{
+    display: flex;
+    padding: 20px;
+}
+.userData{
+    padding: 10px;
+    margin-left: 10px;
+}
+.nameText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+.ProfilText{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    margin: 0 0 20px 0;
+}

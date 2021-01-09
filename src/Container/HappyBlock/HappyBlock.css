@@ -1,0 +1,35 @@
+.contUserHappy{
+    background: url(../../Assets/img/bgHappy.png);
+    position: relative;
+
+}
+.opasImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color:rgba(240,240,240, .9) ;
+}
+.blockMarg{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    
+}
+.userItem{
+    display: flex;
+    justify-content: space-between;
+}
+.blockTit{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}

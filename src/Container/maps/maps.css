@@ -1,0 +1,40 @@
+.app_Map_container{
+    height: 200px;
+    background: url(../../Assets/img/map.png);
+    position: relative;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.blockMap{
+    position: relative;
+    z-index: 2;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.blockMap p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #F38181 ;
+}
+.opasWithe{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(100,100,100, .9);
+}
+.line{
+    display: block;
+    height: 3px;
+    width: 60px;
+    background-color: #F38181;
+}

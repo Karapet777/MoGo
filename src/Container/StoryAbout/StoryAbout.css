@@ -1,0 +1,78 @@
+.StoryAboutBlock{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.lineStoryAbout{
+    width: 60px;
+    height: 3px;
+    background-color: #F38181;
+    margin: 40px 0 48px 0;
+}
+.textStoryInfo{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.imgesBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.StoryAboutBlockItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+}
+/*  */
+.bgBlueBlock{
+    width: 380px;
+    height: 250px;
+    background-color: #95E1D3;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+.UserIcon, .UserIconText{
+    position: relative;
+    z-index: 3;
+    color:  white;
+    visibility: hidden;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.Layer{
+    position: absolute;
+    left: -10px;
+    bottom: 10px;
+    width: 380px;
+    height: 250px;
+    z-index: 2;
+    opacity: 0.9;
+    visibility: hidden;
+
+   
+}
+.hoverImg{
+    position: absolute;
+    left: -10px;
+    bottom: 10px;
+    width: 380px;
+    height: 250px;
+    z-index: 1;
+}
+.bgBlueBlock:hover .Layer , .UserIcon,.UserIconText{
+    visibility: visible;
+}

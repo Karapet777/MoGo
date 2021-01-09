@@ -1,0 +1,88 @@
+.sectionWelcom{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.creativText{
+    font-size: 72px;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin: 0;
+}
+.welcoeText{
+    font-size: 150px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+.welLine{
+    width: 60px;
+    height: 3px;
+    background-color: white;
+}
+.hrefWelcom{
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 3px solid white;
+    margin-top: 50px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/*  */
+.welClickLink{
+    width: 100%;
+    max-width: 1200px;
+    padding: 160px 0 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.numberLink{
+    font-size: 30px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-right: 5px;
+    text-transform: uppercase;
+}
+.textitem{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.widLineLinks{
+    width: 280px;
+    height: 3px;
+    background-color: white;
+}
+.red{
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #F38181;
+
+   visibility: hidden;
+}
+.index1hoverBlock:hover .red{
+   visibility: visible;
+
+}
+.index2hoverBlock:hover .red{
+   visibility: visible;
+}
+.index3hoverBlock:hover .red{
+   visibility: visible;
+}
+.index4hoverBlock:hover .red{
+   visibility: visible;
+}

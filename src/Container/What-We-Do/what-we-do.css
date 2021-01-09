@@ -1,0 +1,97 @@
+.WhatWeDoTitleBlock{
+    padding: 100px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textWhatBlock{
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+}
+.BlockAreyaImg{
+    width: 100%;
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+}
+.imgBoyBlock{
+   width: 50%;
+}
+.blockIcons{
+    display: flex;
+    justify-content: space-between;
+}
+.blockIcons button{
+    border: none;
+}
+.containerIcons{
+    width: 50%;
+}
+.itmeIconText{
+    display: flex;
+    align-items: center;
+}
+.btnOpen{
+ transform: rotate(180deg);
+}
+
+.itmeIconText p{
+    margin: 0;
+    padding-left: 10px;
+}
+.textarea_Block{
+    padding: 5px 0;
+}
+.area{ 
+    width: 100%;
+    max-width: 594px;
+    height: 170px;
+    padding: 7px 20px 0 0;
+    border: 1px solid grey;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+.marg{
+    margin: 10px 0;
+}
+/*Messige*/
+.container_mesige{
+    height: 290px;
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block_messige{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.block_Icon_Messige{
+    padding: 40px;
+    border: 3px solid #95E1D3;
+}
+.BlockMessige{
+    width: 765px;
+}
+.messige{
+    font-family: 'Roboto', sans-serif;
+}
+.lineRed{
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: #F38181;
+    margin-right: 10px;
+}
+.textAfter{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}

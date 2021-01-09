@@ -1,0 +1,59 @@
+.containerLatest{
+    width: 100%;
+    max-width: 377px;
+    margin: auto;
+}
+.blockImg{
+    position: relative;
+}
+.block_month{
+    width: 60px;
+    height: 70px;
+    background-color: #95E1D3;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 15px;
+    left: -10px;
+}
+.block_month p{
+  margin: 0;
+}
+.numb{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Roboto;
+    color: white;
+}
+.txt{
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 100;
+    color: white;
+    font-style: italic;
+}
+.text{
+    padding: 5px;
+}
+.text p{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.block_icons{
+    display: flex;
+    align-items: center;
+}
+.block_icons p {
+    margin: 0;
+    padding: 0 10px;
+}
+.block_icons img{
+    width: 20px;
+    height: 20px;
+}
+    

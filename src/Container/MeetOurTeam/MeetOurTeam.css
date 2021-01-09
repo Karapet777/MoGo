@@ -1,0 +1,68 @@
+.Meet_container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.TitleBlock{
+    padding: 100px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.BlockImg{
+    display: flex;
+    justify-content: space-between;
+}
+.Block{
+    width: 380px;
+    height: 250px;
+    background-color: #95E1D3;
+    margin: 100px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+
+.Icon, .Textt{
+    position: relative;
+    z-index: 3;
+    color:  white;
+    visibility: hidden;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    top: 300px;
+}
+.Layers{
+    position: absolute;
+    left: -10px;
+    bottom: -131px;
+    width: 379px;
+    height: 474px;
+    z-index: 2;
+    opacity: 0.9;
+    visibility: hidden;
+
+   
+}
+.hoverImgs{
+    position: absolute;
+    left: -10px;
+    bottom: 10px;
+    width: 380px;
+    height: 250px;
+    z-index: 1;
+}
+.Block:hover .Layers , .Icon,.Textt{
+    visibility: visible;
+}
+.textWhatBlock {
+    text-align: center;
+    max-width: 1000px;
+    margin: 50px auto;
+}

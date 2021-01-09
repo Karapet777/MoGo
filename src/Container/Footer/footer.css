@@ -1,0 +1,127 @@
+.app_container_footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.app_Logo_Text_Mogo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    color: #CCCCCC;
+    margin: 0;
+}
+.app_info_footer{
+    color: #CCCCCC;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.app_Mogo_block{
+  padding: 10px;
+}
+
+.app_Mogo_block span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.app_block_icons{
+    display: flex;
+    align-items: center;
+}
+.app_block_icons img{
+    display: block;
+    margin: 0px 10px;
+}
+    
+.app_Follow_Us_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    color: #CCCCCC;
+}
+.follow{
+    display: flex;
+    align-items: center;
+}
+.Inp_email{
+    width: 230px;
+    height: 40px;
+    border:1px solid rgba(204,204,204 , .5);
+    padding-left: 15px;
+    color: grey;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+
+}
+.btn_footer{
+    width: 150px;
+    height: 42px;
+    border: none;
+    background-color: #95E1D3;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/* Blogs */
+.app_Blogs{
+    padding: 10px;
+}
+.app_Blogs span{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: grey;
+    font-size: 13px;
+}
+.app_blog_block{
+    display: flex;
+    padding: 0 0 10px 0;
+    align-items: center;
+}
+.app_blog_block img{
+    margin-right: 20px;
+}
+.app_blog_block p{
+   width: 200px;
+   margin: 0;
+}
+.text_blogs, .text_instagram{
+    font-family: 'Montserrat', sans-serif;
+    font-size:14px ;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* Instagram */
+.app_instagram_block{
+    padding: 10px;
+}
+.app_block_inst_img{
+    display: flex;
+}
+.View_more_photos{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    color: grey;
+    font-size: 13px;
+}

@@ -1,0 +1,13 @@
+.blockService{
+    display: flex;
+}
+.blockService img{
+   width: 32px;
+   height: 32px;
+}
+.text{
+    margin: 0;
+}
+.itemBlock{
+    padding-left: 10px;
+}

@@ -1,0 +1,28 @@
+.navHeader{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+.linkItme{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 50px;
+    padding-bottom: 13px;
+}
+.serchIcon{
+    padding: 0 0 0 50px;
+}
+.linkItme:hover{
+    color: #d8d5c9 ;
+    border-bottom: 4px solid #d8d5c9;
+}

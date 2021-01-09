@@ -1,0 +1,55 @@
+.SomeTitleBlock{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+
+}
+.text_some{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-family: Roboto;
+}
+
+.contImg{
+    width: 100%;
+    max-width: 1920px;
+    margin: 100px auto;
+    max-height: 783px;
+}
+.blkImg{
+    display: flex;
+    justify-content: center;
+}
+.contImg img{
+    width: 482px;
+   
+}
+
+.cont_Mes{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.mesText{
+    width: 760px;
+}
+.clsLine{
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: #F38181;
+    margin-right: 10px;
+}
+.mesAuter{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}

@@ -1,0 +1,15 @@
+.iconBlock{
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.service{
+    padding: 100px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

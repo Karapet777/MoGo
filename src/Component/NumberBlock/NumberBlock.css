@@ -1,0 +1,26 @@
+.NumClass{
+   font-size: 72px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   color: white;
+   margin: 0;
+
+}
+.TextClass{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+   color: white;
+
+}
+.blockNum{
+    width: 240px;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftBord{
+    border-left: 1px solid white;
+}
